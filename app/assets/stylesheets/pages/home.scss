@@ -1,0 +1,154 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.padded {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100vw;
+
+}
+.padded h1{
+font-size: 40px;
+font-weight: bold;
+text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.padded img {
+  width: 100%;
+}
+
+.wrapper-grey {
+  background: #313340;
+  padding-bottom: 60px;
+}
+.wrapper-grey h1 {
+  padding-top: 60px;
+  color: white;
+}
+
+.wrapper-grey h2,h4,h3,h5 {
+  color: white;
+  padding-bottom: 40px;
+}
+
+
+.wrapper-grey p {
+  padding: 10px;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.image-circle{
+  width: 150px;
+	height: 150px;
+	border-radius: 75px;
+  object-fit: cover;
+  object-position: center center;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+  &:hover{
+    border: 6px solid white;
+  }
+}
+//////////////////////////CONTACT///////////////////
+.padded_contact {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.fa-envelope{
+  padding: 5px;
+  font-size: 40px;
+  color: white;
+  &:hover{
+    opacity: 0.8;
+    color: #f47d20;
+  }
+}
+.fa-phone-square{
+  padding: 6px;
+  font-size: 40px;
+  color: white;
+  &:hover{
+    opacity: 0.8;
+    color: #f47d20;
+  }
+}
+///////////////////  /////////////////
+.banner_down {
+  color: white;
+  height: 70vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+}
+
+.line1{
+  width: 20px;
+  border: 1px solid white;
+}
+
+
+.wrapper-white{
+    padding-top: 120px;
+    background: #fff;
+    padding-bottom: 120px;
+}
+
+.wrapper-white p {
+  font-size: 22px;
+  padding: 0 120px 0 120px;
+  font-style: italic;
+}
+
+
+
+
+
+/////////////////////test ://///////
+
+// .toto{
+//     animation-name: example;
+//     animation-duration: 3s;
+//     animation-delay: 2s;
+// }
+// @keyframes example {
+//     0%   { left:-930px;}
+//     50%  { left:0px;}
+//     80%  { left:0px;}
+//     100% { left:0px;}
+// }
+//
+// .toto2{
+//     animation-name: example2;
+//     animation-duration: 3s;
+//     animation-delay: 2s;
+// }
+// @keyframes example2 {
+//     0%   { right:-930px;}
+//     50%  { right:0px;}
+//     100% {  right:0px;}
+// }
+//
+// .toto3{
+//     animation-name: example3;
+//     animation-duration: 5s;
+//     animation-delay: 2s;
+// }
+// @keyframes example3 {
+//     0%   { left:-930px;}
+//     50%  { left:0px;}
+//     100% {  left:0px;}
+// }
+//
+// .toto4{
+//     animation-name: example4;
+//     animation-duration: 5s;
+//     animation-delay: 2s;
+// }
+// @keyframes example4 {
+//   0%   { right:-930px;}
+//   50%  { right:0px;}
+//   100% {  right:0px;}
+// }
