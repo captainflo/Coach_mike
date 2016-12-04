@@ -1,10 +1,20 @@
 <div id="footer">
   <div class="text-center">
-    <h2>Rejoignez-moi et écrivons ensemble notre histoire</h2>
-    <ul class="list-inline">
-      <li><a href=""><i class="fa fa-instagram"></i></a></li>
-      <li><a href=""><i class="fa fa-facebook"></i></a></li>
-    </ul>
-  </div>
+    <h2>Rejoignez-moi et écrivons ensemble notre histoire :</h2>
+    <div class="principal">
+      <% if controller.controller_name == "home"%>
+      <ul class="list-inline text-left ">
+        <li class='text-center'><%= mail_to "nelly@hopenproject.com" do %>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <% end %></li>
+        <li class='text-center'><i class="fa fa-phone-square" aria-hidden="true"></i> 06 26 88 22 66</li>
+      </ul>
+      <% end %>
+      <ul class="list-inline">
+        <li><a href=""><i class="fa fa-instagram"></i></a></li>
+        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+      </ul>
       <h6 class="text-right grey">Mike Coach© 2016 Tout droit réservé.</h6>
+    </div>
+  </div>
 </div>

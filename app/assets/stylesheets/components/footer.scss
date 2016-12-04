@@ -62,4 +62,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 
 .grey{
   color: grey;
+  align-items: center;
+
+}
+
+.principal{
+  display: flex;
+  justify-content: space-around;
+}
+
+#footer .fa-envelope{
+  padding: 5px;
+  font-size: 30px;
+  color: white;
+  &:hover{
+    opacity: 0.8;
+    color: #f47d20;
+  }
+}
+#footer .fa-phone-square{
+  padding: 6px;
+  font-size: 30px;
+  color: white;
+  &:hover{
+    opacity: 0.8;
+    color: #f47d20;
+  }
+}
+
+#footer h6{
+  padding-top: 21px;
 }

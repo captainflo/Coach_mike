@@ -116,14 +116,18 @@ color: #999999;
 
 
 .wrapper-white{
-    padding-top: 120px;
+    padding-top: 60px;
     background: #fff;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
+}
+
+.wrapper-white p{
+    font-size: 22px;
 }
 
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
 
   .wrapper-white p {
     font-size: 22px;
