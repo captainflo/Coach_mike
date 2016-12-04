@@ -1,17 +1,18 @@
+
 <div class="banner-home " style="background-image: url('<%= image_path 'happy.jpg' %>');">
   <div class="banner-content">
-    <h1>Coach Mike</h1>
-    <h2>Votre coach sportif personnel</h2>
+    <h1>Coach sportif personnel</h1>
+    <h2>Le goût du sport ensemble</h2>
   </div>
 </div>
 
 <div class="text-center padded ">
-  <h1>Qui est Mike ?</h1>
+  <h1>Qui suis-je ?</h1>
   <br>
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6 mov_left">
-        <%= image_tag 'imgres.jpg'%>
+        <%= image_tag 'coachmike.png'%>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-6 text-left mov_right">
         <p>Passionné par le sport et dynamisé par les rapports humains, devenir coach sportif a été pour moi une évidence. Donner, recevoir et partager sont, au-delà des valeurs fondamentales de ma vie, le reflet de mon travail et de ce que nous vivrons ensemble durant les coachings. </p>
@@ -32,42 +33,62 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-3 col-md-3 foo">
-        <%= image_tag 'imgres.jpg', class:"image-circle"%>
+        <%= image_tag 'a.jpg', class:"image-circle"%>
         <h3>Coaching personnel</h3>
       </div>
       <div class="col-xs-12 col-sm-3 col-md-3 foo2">
-        <%= image_tag 'imgres.jpg', class:"image-circle"%>
-        <h3>Coach Training</h3>
+        <%= image_tag 'mikecoach.jpg', class:"image-circle"%>
+        <h3>Coaching enfants-ados</h3>
       </div>
       <div class="col-xs-12 col-sm-3 col-md-3 foo3">
         <%= image_tag 'imgres.jpg', class:"image-circle"%>
-      <h3>Coaching Enfants-Ados</h3>
+      <h3>Coaching à distance</h3>
       </div>
       <div class="col-xs-12 col-sm-3 col-md-3 foo4">
-        <%= image_tag 'imgres.jpg', class:"image-circle"%>
-      <h3>Coaching à Distances</h3>
+        <%= image_tag 'b.jpg', class:"image-circle"%>
+      <h3>Cross-training</h3>
       </div>
     </div>
   </div>
 </div>
 
-<div class="banner_down" style="background-image: url('<%= image_path 'coach.jpg', class:"img-responsive"%>');">
+<div class="text-center wrapper-white">
   <div class="container">
-    <div class="foo5">
-      <h1>Votre coach sportif personnel</h1>
-      <div class="row">
-        <div class="col-xs-12 col-sm-2 col-md-2 text-center">
-          <%= mail_to "nelly@hopenproject.com" do %>
-          <i class="fa fa-envelope" aria-hidden="true"></i>
-          <% end %>
-          <p>coach.mike@gmail.com</p>
-        </div>
-        <div class="col-xs-12 col-sm-2 col-md-2 text-center">
-          <i class="fa fa-phone-square" aria-hidden="true"></i>
-          <p>06 26 88 22 66</p>
-        </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 foo">
+      <div class="text-center">
+        <p>Chaque jour est une nouvelle chance.
+          Le regard tourné vers l'avenir, oublion vos excuses et défion vos limites.
+          il n'y a pas de grande ou de petite victoire,il n'en existe que des belles: les votres.</p>
       </div>
     </div>
+  </div>
+  <div class="row text-right">
+    <div class="col-xs-12 col-sm-12  col-md-12">
+      <p class="toto">Coach Mike<p>
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="banner_down" style="background-image: url('<%= image_path 'mountain-help-dpc.jpg'%>');">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-12 col-md-offset-0   foo">
+            <h1>Votre coach sportif personnel</h1>
+            <div class="list-inline ">
+              <li class='text-center'><%= mail_to "nelly@hopenproject.com" do %>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <% end %>
+              <p>coach.mike@gmail.com</p></li>
+              <li class='text-center'><i class="fa fa-phone-square" aria-hidden="true"></i>
+              <p>06 26 88 22 66</p></li>
+            </div>
+          </div>
+          <!-- <div class="col-xs-12 col-md-3 col-md-offset-9 text-right foo ">
+            <h4>l'homme qui déplace une montagne commence par déplacer des petites pierre</h4>
+            <p class="text-right">Confucius</p>
+          </div> -->
     </div>
   </div>
 </div>

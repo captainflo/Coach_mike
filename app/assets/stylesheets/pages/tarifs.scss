@@ -144,6 +144,8 @@
 }
 .card .cover img {
   width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .card .branded {
   position: relative;

@@ -13,6 +13,14 @@ font-size: 40px;
 font-weight: bold;
 text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
 }
+
+.padded p{
+font-size: 17px;
+font-family: helvetica;
+color: #999999;
+
+}
+
 .padded img {
   width: 100%;
 }
@@ -26,7 +34,23 @@ text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
   color: white;
 }
 
-.wrapper-grey h2,h4,h3,h5 {
+.wrapper-grey h2 {
+  color: white;
+  padding-bottom: 40px;
+}
+
+.wrapper-grey h4 {
+  color: white;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+.wrapper-grey h3 {
+  color: white;
+  padding-bottom: 40px;
+}
+
+.wrapper-grey h5 {
   color: white;
   padding-bottom: 40px;
 }
@@ -77,6 +101,7 @@ text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
 ///////////////////  /////////////////
 .banner_down {
   color: white;
+  text-align: center;
   height: 70vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
@@ -100,6 +125,7 @@ text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
   font-size: 22px;
   padding: 0 120px 0 120px;
   font-style: italic;
+  color: #999999;
 }
 
 

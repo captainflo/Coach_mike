@@ -19,8 +19,8 @@ $(document).ready(function() {
   window.sr = ScrollReveal({ reset: true });
 
 // Customizing a reveal set
-  sr.reveal('.mov_left', { duration: 1000, origin: 'left',distance: '200px',mobile: true });
-  sr.reveal('.mov_right', { duration: 1000, origin: 'right',distance: '100px',mobile: true });
+  sr.reveal('.mov_left', { duration: 1000, origin: 'left',mobile: true });
+  sr.reveal('.mov_right', { duration: 1000, origin: 'right',mobile: true });
 
   sr.reveal('.foo', { duration: 2000, mobile: true });
   sr.reveal('.foo2', { duration: 2100,delay: 400, mobile: true });
