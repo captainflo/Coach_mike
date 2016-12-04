@@ -34,6 +34,22 @@ font-weight: normal;
   width: 90%;
 }
 
+@media screen and (max-width: 450px) {
+
+  .padded_serv {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    height: auto;
+  }
+
+
+}
 
 
 
