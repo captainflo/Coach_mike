@@ -27,11 +27,12 @@ color: #999999;
 
 .wrapper-grey {
   background: #313340;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 .wrapper-grey h1 {
-  padding-top: 60px;
   color: white;
+  padding-bottom: 15px;
 }
 
 .wrapper-grey h2 {
@@ -105,8 +106,14 @@ color: #999999;
   height: 70vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
+  object-fit: cover;
+  object-position: center center;
   display: flex;
   align-items: center;
+}
+
+.banner_down p{
+  color: #fff;
 }
 
 .line1{

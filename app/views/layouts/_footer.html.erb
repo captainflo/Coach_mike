@@ -1,9 +1,9 @@
 <div id="footer">
   <div class="text-center">
     <h2>Rejoignez-moi et écrivons ensemble notre histoire :</h2>
+    <% if params[:action] != "home"%>
     <div class="principal">
-      <% if controller.controller_name == "home"%>
-      <ul class="list-inline text-left ">
+      <ul class="list-inline text-center ">
         <li class='text-center'><%= mail_to "nelly@hopenproject.com" do %>
         <i class="fa fa-envelope" aria-hidden="true"></i>
         <% end %></li>
