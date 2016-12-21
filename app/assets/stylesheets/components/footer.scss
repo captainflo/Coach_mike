@@ -93,3 +93,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 #footer h6{
   padding-top: 21px;
 }
+
+@media screen and (max-width: 550px) {
+.number {
+  font-size: 15px;
+  }
+}

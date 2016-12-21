@@ -75,6 +75,21 @@ color: #999999;
     border: 6px solid white;
   }
 }
+
+.image-circle1{
+  width: 150px;
+	height: 150px;
+	border-radius: 75px;
+  object-fit: cover;
+  object-position: center center;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+  &:hover{
+  background: url(mikecoach01.jpg) no-repeat 0 -27px;
+  cursor:help;
+  border: 6px solid white;
+  }
+}
 //////////////////////////CONTACT///////////////////
 .padded_contact {
   padding-top: 60px;
