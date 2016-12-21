@@ -94,8 +94,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   padding-top: 21px;
 }
 
-@media screen and (max-width: 550px) {
+@media (max-width: 550px){
 .number {
-  font-size: 15px;
+  font-size: 10px;
   }
 }
