@@ -150,6 +150,21 @@ line-height: 2;
 }
 
 
+@media screen and (max-width: 1024px) {
+
+  .wrapper-white p {
+    font-size: 22px;
+    padding: 0 30px 0 30px;
+    font-style: italic;
+    color: #999999;
+  }
+
+
+    .padded img {
+      width: 100%;
+  }
+}
+
 
 @media screen and (max-width: 550px) {
 
@@ -161,7 +176,16 @@ line-height: 2;
   }
 }
 
-
+@media screen and (max-width: 768px) {
+.padded p {
+    font-size: 17px;
+    font-family: helvetica;
+    color: #999999;
+    line-height: 2;
+    text-align: center;
+    padding: 5px;
+  }
+}
 
 
 
